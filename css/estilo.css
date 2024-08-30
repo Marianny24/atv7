@@ -1,4 +1,77 @@
-.centralizado img{
-    max-width: 100%;
-    height: auto;
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #990000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center; 
+}
+
+.menu {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none; 
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+.menu li a:hover {
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+    background-color: rgb(135, 1, 1);
+    text-align: center;
+}
+
+h1:hover {
+    color: #fff;
+    background-color: #000;
+}
+h2{
+    color:#990000;
+}
+h3{
+    color: #000;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.centro{
+    text-align: center;
+}
+#links{
+    text-align: left;
 }
